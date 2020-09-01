@@ -6,7 +6,9 @@ h1 {
 .topnav {
     background-color: #00a6aa;
     overflow: hidden;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .topnav a {
@@ -26,4 +28,8 @@ h1 {
 
 .topnav a:active {
     background-color: #00cccf;
+}
+
+.bottomnav {
+    background-color: #00a6aa;
 }
