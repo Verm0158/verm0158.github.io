@@ -1,3 +1,5 @@
+/* Navigatie en Titel */
+
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -28,4 +30,58 @@ h1 {
 
 .topnav a:active {
     background-color: #00cccf;
+}
+/* Welkom text */
+
+.welkom {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* Informatie boxen index.html */
+
+.box1 {
+    border: solid;
+    border-color: #00a6aa;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 500px;
+    box-shadow: 10px 10px 5px #008285;
+    margin: 50px 0px 0px 50px;
+}
+
+.box1 h3 {
+    color: #00cccf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box2 {
+    border: solid;
+    border-color: #00a6aa;
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 500px;
+    box-shadow: 10px 10px 5px #008285;
+    margin: 50px 50px 0px 0px;
+}
+
+.box2 h3 {
+    color: #00cccf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box1 li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.box2 li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
