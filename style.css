@@ -147,10 +147,28 @@ h1 {
 /* Socials */
 
 .socials {
+    border: white;
+    border-style: solid;
+    padding: auto;
+}
+
+.socials img {
     width: 128px;
     height: 128px;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#snapchat {
+    width: 150px;
+}
+
+/* Snapchat pagina */
+
+#blank {
+    background-color: white;
+}
+
+.snapchatlink {
+    text-align: center;
 }
