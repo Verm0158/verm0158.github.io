@@ -212,3 +212,69 @@ table th {
     background-color: #00a6aa;
     color: white;
 }
+
+/* FAQ Box */
+
+.boxfaq {
+    border: solid;
+    border-color: #00a6aa;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    background-color: white;
+    position: absolute;
+    left: 300px;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: block;    
+    padding: 8px 22px;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    background: #00cccf;
+    color: #FFF;
+    transition: ease .5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 800px;
+    border: 1px solid;
+    border-color: white;
+}
+
+.content {
+    background: white;
+    padding: 10px 25px;
+    margin: 0 0 0 0;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+}
+
+label::after {
+    content: '+';
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+input:checked + label::after {
+    content: '-';
+    right: 14px;
+    top: 3px;
+}
