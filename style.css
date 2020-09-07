@@ -1,9 +1,9 @@
 /* Body */
-/* 
+
 body {
     background-image: url(background-black.jpg);
 }
-*/
+
 /* Navigatie en Titel */
 
 h1 {
@@ -62,12 +62,11 @@ h1 {
 .box1 {
     border: solid;
     border-color: #00a6aa;
-    float: left;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
-    margin: 50px 0px 20px 75px;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
     background-color: white;
 }
 
@@ -81,12 +80,11 @@ h1 {
 .box2 {
     border: solid;
     border-color: #00a6aa;
-    float: right;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
-    margin: 50px 75px 0px 0px;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
     background-color: white;
 }
 
@@ -147,16 +145,26 @@ h1 {
 /* Socials */
 
 .socials {
-    border: white;
-    border-style: solid;
-    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: auto;
+    margin-top: 25px;
+    float: left;
+    height: auto;
+    position: absolute;
+    left: 675px;
 }
 
 .socials img {
     width: 128px;
     height: 128px;
-    text-align: center;
     padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #snapchat {
@@ -177,6 +185,8 @@ h1 {
 
 table, th, td {
     border-collapse: collapse;
+    border-style: solid;
+    border-color: white;
   }
 
 table {
