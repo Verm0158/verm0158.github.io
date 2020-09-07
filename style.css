@@ -64,9 +64,13 @@ h1 {
     border-color: #00a6aa;
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
+<<<<<<< HEAD
     margin-top: 25px;
     margin-left: 25px;
     float: left;
+=======
+    margin: 50px 0px 20px 75px;
+>>>>>>> a265fe29503025f9d00158143363346cd5e8ae3f
     background-color: white;
 }
 
@@ -82,9 +86,13 @@ h1 {
     border-color: #00a6aa;
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
+<<<<<<< HEAD
     margin-top: 25px;
     margin-right: 25px;
     float: right;
+=======
+    margin: 50px 75px 0px 0px;
+>>>>>>> a265fe29503025f9d00158143363346cd5e8ae3f
     background-color: white;
 }
 
@@ -145,6 +153,7 @@ h1 {
 /* Socials */
 
 .socials {
+<<<<<<< HEAD
     padding-right: 15px;
     padding-left: 15px;
     width: auto;
@@ -153,11 +162,17 @@ h1 {
     height: auto;
     position: absolute;
     left: 675px;
+=======
+    border: white;
+    border-style: solid;
+    padding: auto;
+>>>>>>> a265fe29503025f9d00158143363346cd5e8ae3f
 }
 
 .socials img {
     width: 128px;
     height: 128px;
+<<<<<<< HEAD
     padding: 0px 0px 0px 0px;
     display: table-cell;
 
@@ -165,6 +180,10 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+=======
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+>>>>>>> a265fe29503025f9d00158143363346cd5e8ae3f
 }
 
 #snapchat {
@@ -179,6 +198,7 @@ h1 {
 
 .snapchatlink {
     text-align: center;
+<<<<<<< HEAD
 }
 
 /* Dashboard tabel */
@@ -212,4 +232,6 @@ table tr:nth-child(odd) {
 table th {
     background-color: #00a6aa;
     color: white;
+=======
+>>>>>>> a265fe29503025f9d00158143363346cd5e8ae3f
 }
