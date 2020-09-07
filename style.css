@@ -1,8 +1,15 @@
+/* Body */
+/* 
+body {
+    background-image: url(background-black.jpg);
+}
+*/
 /* Navigatie en Titel */
 
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 .topnav {
@@ -47,6 +54,7 @@ h1 {
 .welkom p {
     width: 750px;
     margin: auto;
+    color: white;
 }
 
 /* Informatie boxen index.html */
@@ -60,6 +68,7 @@ h1 {
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
     margin: 50px 0px 20px 75px;
+    background-color: white;
 }
 
 .box1 h3 {
@@ -78,6 +87,7 @@ h1 {
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
     margin: 50px 75px 0px 0px;
+    background-color: white;
 }
 
 .box2 h3 {
@@ -97,6 +107,21 @@ h1 {
     font-size: 20px;
 }
 
+/* Stipjes kleur */
+
+    ul {
+        list-style: none;
+    }
+
+    ul li::before {
+        content: "\2022";
+        color: #00a6aa;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
 /* Afbeeldingen informatie box */
 
 .box1 img {
@@ -106,4 +131,75 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box2 img {
+    width: 256px;
+    height: 256px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Socials */
+
+.socials {
+    border: white;
+    border-style: solid;
+    padding: auto;
+}
+
+.socials img {
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#snapchat {
+    width: 150px;
+}
+
+/* Snapchat pagina */
+
+#blank {
+    background-color: white;
+}
+
+.snapchatlink {
+    text-align: center;
+}
+
+/* Dashboard tabel */
+
+table, th, td {
+    border-collapse: collapse;
+  }
+
+table {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+table td {
+    height: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #00cccf;
+}
+
+table th {
+    background-color: #00a6aa;
+    color: white;
 }
