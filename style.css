@@ -143,7 +143,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /* Socials */
@@ -280,4 +280,16 @@ input:checked + label::after {
     content: '-';
     right: 14px;
     top: 3px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#italic {
+    font-style: italic;
 }
