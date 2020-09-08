@@ -62,13 +62,13 @@ h1 {
 .box1 {
     border: solid;
     border-color: #00a6aa;
-    float: left;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
-    margin: 50px 0px 20px 75px;
+    margin-top: 25px;
+    margin-left: 75px;
+    float: left;
     background-color: white;
+    height: 550px;
 }
 
 .box1 h3 {
@@ -81,13 +81,13 @@ h1 {
 .box2 {
     border: solid;
     border-color: #00a6aa;
-    float: right;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 500px;
     box-shadow: 10px 10px 5px #008285;
-    margin: 50px 75px 0px 0px;
+    margin-top: 25px;
+    margin-right: 75px;
+    float: right;
     background-color: white;
+    height: 550px;
 }
 
 .box2 h3 {
@@ -120,6 +120,7 @@ h1 {
         display: inline-block;
         width: 1em;
         margin-left: -1em;
+        padding-top: 10px;
     }
 
 /* Afbeeldingen informatie box */
@@ -132,6 +133,7 @@ h1 {
     margin-right: auto;
     margin-top: 20px;
     padding-bottom: 20px;
+    padding-top: 60px;
 }
 
 .box2 img {
@@ -147,16 +149,26 @@ h1 {
 /* Socials */
 
 .socials {
-    border: white;
-    border-style: solid;
-    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: auto;
+    margin-top: 25px;
+    float: left;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .socials img {
     width: 128px;
     height: 128px;
-    text-align: center;
     padding: 0px 0px 0px 0px;
+    display: table-cell;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #snapchat {
@@ -171,4 +183,101 @@ h1 {
 
 .snapchatlink {
     text-align: center;
+}
+
+/* Dashboard tabel */
+
+table, th, td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: white;
+  }
+
+table {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+table td {
+    height: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #00cccf;
+}
+
+table th {
+    background-color: #00a6aa;
+    color: white;
+}
+
+/* FAQ Box */
+
+.boxfaq {
+    margin: auto;
+    margin-top: 25px;
+    width: 845px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: block;    
+    padding: 8px 22px;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    background: #00cccf;
+    color: #FFF;
+    transition: ease .5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 800px;
+    border: 1px solid;
+    border-color: white;
+}
+
+.content {
+    background: white;
+    padding: 10px 25px;
+    margin: 0 0 0 0;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+}
+
+label::after {
+    content: '+';
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+input:checked + label::after {
+    content: '-';
+    right: 14px;
+    top: 3px;
 }
