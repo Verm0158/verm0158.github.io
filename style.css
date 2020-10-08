@@ -455,7 +455,7 @@ input:checked + label::after {
 .resources {
     margin: auto;
     margin-top: 25px;
-    width: 845px;
+    width: 1000px;
     padding: 10px;
     border: solid;
     border-color: #00a6aa;
@@ -467,4 +467,31 @@ input:checked + label::after {
 .resources li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+}
+
+/* Theory box */
+
+.theory {
+    margin: auto;
+    margin-top: 25px;
+    width: 1000px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
+
+.theory p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.theory img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
