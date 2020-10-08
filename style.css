@@ -495,3 +495,58 @@ input:checked + label::after {
   margin-right: auto;
   width: 50%;
 }
+
+.theory li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* Performance motivation */
+
+.performance {
+    margin: auto;
+    margin-top: 25px;
+    width: 1000px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
+
+.performance li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.performance p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* Career anchors / values */
+
+.anchor {
+    margin: auto;
+    margin-top: 25px;
+    width: 1000px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
+
+.anchor li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.anchor p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
