@@ -449,3 +449,17 @@ input:checked + label::after {
     grid-row-start: 7;
     grid-row-end: 9;
 }
+
+/* Resource box */
+
+.resources {
+    margin: auto;
+    margin-top: 25px;
+    width: 845px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
