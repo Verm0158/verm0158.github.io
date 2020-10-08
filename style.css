@@ -463,3 +463,8 @@ input:checked + label::after {
     box-shadow: 10px 10px 5px #008285;
     background-color: white;
 }
+
+.resources li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
