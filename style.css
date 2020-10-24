@@ -560,3 +560,28 @@ input:checked + label::after {
     text-decoration: underline;
     padding-left: 10px;
 }
+
+/* Conclusie */
+
+.conclussion {
+    margin: auto;
+    margin-top: 25px;
+    width: 1000px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
+
+.conclussion li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.conclussion p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
