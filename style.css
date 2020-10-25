@@ -585,3 +585,64 @@ input:checked + label::after {
     font-size: 15px;
     text-align: justify;
 }
+
+/* Profession divs */
+
+.profession {
+    margin: auto;
+    margin-top: 25px;
+    width: 1000px;
+    padding: 10px;
+    border: solid;
+    border-color: #00a6aa;
+    height: auto;
+    box-shadow: 10px 10px 5px #008285;
+    background-color: white;
+}
+
+.professionHeader {
+    color: #00cccf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+.profession p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.profession li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* Logo divs in */
+
+#yoursurprise {
+    height: 25px;
+    margin-right: 5px;
+}
+
+#veracode {
+    height: 20px;
+    margin-right: 5px;
+}
+
+#syntesssoftware {
+    height: 25px;
+    margin-right: 5px;
+}
+
+#macaw {
+    height: 40px;
+    margin-right: 5px;
+}
+
+#asml {
+    height: 25px;
+    margin-right: 5px;
+}
