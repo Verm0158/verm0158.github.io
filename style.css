@@ -646,3 +646,35 @@ input:checked + label::after {
     height: 25px;
     margin-right: 5px;
 }
+
+/* Website img sizes */
+
+#yoursurprisePage {
+    height: 315px;
+    width: 570px;
+    margin-left: 5px;
+}
+
+#veracodePage {
+    height: 315px;
+    width: 570px;
+    margin-left: 5px;
+}
+
+#syntesssoftwarePage {
+    height: 315px;
+    width: 570px;
+    margin-left: 5px;
+}
+
+#macawPage {
+    height: 315px;
+    width: 570px;
+    margin-left: 5px;
+}
+
+#asmlPage {
+    height: 315px;
+    width: 570px;
+    margin-left: 5px;
+}
